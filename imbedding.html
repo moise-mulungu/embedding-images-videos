@@ -5,43 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Embedding Images and Videos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-        <div id="header">
-        Online classses.
-            <nav>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-            </nav>
-        </div>
+    <div id="header">
 
-        <input type="text" value="search">
+      <h1>Online classses</h1>
+      <nav>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+      </nav>
+      <input type="text" value="search">
 
-    </section>
+    </div>
+
     <main>
-        <p>What is MOOC</p>
+      <div class="master">
+        <p class="mooc">What is MOOC</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/eW3gMGqcZQc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
         <p>Thumbnail</p>
-        
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
 
-        <div class="sidebar">
+      </div>
 
-            <h3 class="sidebar-menu">Menu</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/CqsZK3UOSQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/b_N_NHbC80E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/XGMrzQ7YOfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        </div>
+      <div class="sidebar">
+        <h3 class="sidebar-menu">Menu</h3>
+        <iframe width="200" height="100" src="https://www.youtube.com/embed/CqsZK3UOSQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="200" height="100" src="https://www.youtube.com/embed/b_N_NHbC80E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="200" height="100" src="https://www.youtube.com/embed/XGMrzQ7YOfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <form>
+          <input type="button" value="Go back!" onclick="history.back()">
+        </form>
+      </div>
 
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="views">
+        <h5>views</h5>
+      </div>
+      <button type="button" name="button">like</button>
+      <button type="button" name="button">dislike</button>
+      <button type="button" name="button">share</button>
+    </footer>
 
 
 </body>

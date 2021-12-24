@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  background: black;
+  border-radius: 8px;
+
+}
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: green;
+
+}
+h1 {
+  font-size: 24px;
+  font-family: fantasy;
+
+}
+
+nav{
+
+}
+
+input{
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 12px;
+  font-family: sans-serif;
+
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(125, 0, 100, 0.5);
+
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: skyblue;
+
+}
+ul{
+
+}
