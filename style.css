@@ -29,6 +29,12 @@ nav{
   padding: 8px;
 
 }
+nav > a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: gainsboro;
+}
 
 input{
   margin: 10px 8px 10px 8px;
@@ -60,6 +66,9 @@ main {
   padding: 12px;
 
 }
+button:hover {
+  background-color: mediumturquoise;
+}
 
 h2 {
   font-size: 24px;
@@ -82,7 +91,7 @@ h2 {
 
 footer {
   display: flex;
-  background: darkkhaki;
+  background: lightgreen;
   justify-content: space-around;
 
 }
